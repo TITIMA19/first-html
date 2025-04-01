@@ -4,44 +4,39 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-      
-       
-      
-      
-      
-                   
+        <link rel="stylesheet" href="style.css">      
     </head>
     <body>
-        <nav>
+        <nav id="Home">
                 <ul>
-                    <li><a href="#home">home</a> </li>
-                    <li><a href="# about ">about</a></li>
-                    <li> <a href="# work">work</a></li>
-                    <li> <a href="# resume">resume</a></li>
-                    <li> <a href="# contact">contact</a></li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>                     
+                    <li> <a href="#Work">Work</a></li>
+                    <li> <a href="#Resume">resume</a></li>
+                    <li> <a href="#Contact">Contact</a></li>
                 </ul>
          </nav>
         <main>
-            <section>
-                <h1><a href="# home ">about:</a></h1>
+            <section id="About">
+                <h1><a href="#Home ">About</a></h1>
                <p> How are you? <br>
                 It was a hard question, but I will start to introduce myself
                 My name is Assouab Fatima, I am 22 years old,
                 Origin Morocco end I live in Tiznit it is a small city that have a traditional style live it's It is a city famous for silver
                 <h1>This is the small video of my city:</h1>
-               <video controls src="/VID_20250322_025320_011.mp4"></video>
+               <video controls src="/VID_20250322_025320_011.mp4" type="video/mp4" class="video"></video>
                
                </p>
               
             </section>
-            <section>
-               <h2>  <a href="# home">work:</a></h2>
+            <section id="Work">
+               <h2>  <a href="#Home">Work</a></h2>
                <p> what do you work ?</p>
                 <audio  controls src="/gomycode.mp3"></audio>
               
             </section>
-            <section> 
-                <h1> <a href="# home">rusume</a></h1>
+            <section id="Resume"> 
+                <h1> <a href="#Home">Rusume</a></h1>
                 <img src="/Tiznit_Gate.jpg" alt="">
                 <a href="https://en.wikipedia.org/wiki/Tiznit">click here  </a>
             
@@ -49,9 +44,9 @@
             
         </main>
          <footer> 
-            <section>
-                <h1> <a href="#home">contact</a></h1>
-                <textarea name="text" >Your message here</textarea>
+            <section id="Contact">
+                <h1> <a href="#home">Contact</a></h1>
+                <input name="text" placeholder="Your message here" ></input>
                 <button>submit</button>
                  
             </section>
